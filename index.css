@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 400px;
+    background: #1B244A;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    width: 149px;
+    height: 36px;
+    margin-top: 68px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 35px;
+}
+
+.score {
+    text-align: center;
+    background: black;
+    color: red;
+    width: 155px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#home-score {
+    font-size: 90px;
+}
+
+#guest-score {
+    font-size: 90px;
+}
+.buttons {
+    text-align: center;
+    width: 155px;
+    height: 45px;
+}
+
+button {
+    background: #1B244A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.new-game {
+    margin: auto 10px;    
+}
